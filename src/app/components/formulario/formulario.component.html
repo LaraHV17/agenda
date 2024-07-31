@@ -1,0 +1,10 @@
+<div>
+    <input [(ngModel)]="nombre" type="text" placeholder="Tarea">
+    <input [(ngModel)]="fecha" type="date">
+    <button (click)="crearTarea()">Crear</button>
+    <!--{{nombre}}: Interpolación de variables-->
+    <!--{{gestorTareas.tareas | json }} | es un pipe de transformación, como stringify-->
+    <!--así podemos ver el servicio que hemos inyectado en el ts
+    para poder utilizarlo tenemos que cambiar el private por public en la clase 
+    FormularioComponent del ts-->
+</div>
